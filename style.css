@@ -1,0 +1,21 @@
+.time_holder{
+    position:absolute;
+    top:0;
+    left:0;
+    border: 3px black solid;
+    width: fit-content; 
+    margin: 50px;
+    border-radius: 7px;
+    background: #466d81
+}
+.hold{
+    position:absolute;
+    top:0;
+    right:0;
+    border: 3px black solid;
+    width: fit-content; 
+    margin: 50px;
+    border-radius: 7px;
+    padding: 100px 75px;
+    background: #3d708a
+}

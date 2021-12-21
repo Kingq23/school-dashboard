@@ -21,10 +21,10 @@ function get_weather() {
     document.getElementById("weather_data").src=icon
     })
     .catch(() => {
-    
+        console.log("sus")
     });
 }
 window.addEventListener('load', (event) => {
-  
+    get_weather()
     startTime()
 });

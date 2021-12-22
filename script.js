@@ -19,6 +19,7 @@ function get_weather() {
     // do stuff with the data
     const icon = `https://openweathermap.org/img/wn/${weather[0]["icon"]}@2x.png`;
     document.getElementById("weather_data").src=icon
+    console.log(data)
     })
     .catch(() => {
         console.log("sus")
